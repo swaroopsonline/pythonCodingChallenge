@@ -2,7 +2,7 @@
 # This code reverses an order of an Array in Python
 import numpy as np
 
-arr1 = np.array(["Fiat", "Maruti", "Volvo","Jaguar","Mazeratti","Bentley"])
+arr1 = np.array(["Fiat", "Maruti", "Volvo","Jaguar","Mazeratti","Bentley","Honda"])
 print("type of arr1 before delete is ",type(arr1))
 print("arr1 before delete", arr1)
 
