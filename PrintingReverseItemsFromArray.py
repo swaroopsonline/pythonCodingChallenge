@@ -5,7 +5,7 @@ import numpy as np
 
 print("----------------------NumPy Array -------------------------")
 
-arr1 = np.array(["Fiat", "Maruti", "Volvo"])
+arr1 = np.array(["Fiat", "Maruti", "Volvo","Logan","Hyundai"])
 
 i = len(arr1)
 j = i - 1
