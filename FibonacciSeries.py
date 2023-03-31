@@ -15,4 +15,4 @@ for i in range(0, 10):
     list1.append(y)
 
 print(list1)
-print("The length of the fibonacci list is", len(list1))
+print("The length of the Fibonacci list is", len(list1))
