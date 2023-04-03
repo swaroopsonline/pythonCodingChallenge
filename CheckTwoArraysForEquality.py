@@ -9,9 +9,9 @@ import numpy as np
 
 
 # arr1 = np.array(["Hyundai", 1, "Volvo", "Maruti", False])
-arr1 = np.array([2, "Logan", "Fiat", True, "Volvo", 3, 3])
+arr1 = np.array([2, "Logan", "Fiat", True, "Volvo", 3, 4])
 
-arr2 = np.array(["Volvo", True, "Fiat", "Logan", 2, 3, 4])
+arr2 = np.array(["Volvo", True, "Fiat", "Logan", 2, 3, 3])
 
 # First converting both the Arrays to List
 
@@ -35,16 +35,28 @@ if len(listarr1) == len(listarr2):
     for i in range(len(listset1)):
         for j in range(len(listset2)):
             if listset1[i] == listset2[j]:
-                listarr.append(listarr1[i])
+                listarr.append(listset1[i])
 
     print("Both the Arrays are equal in size")
+    print("Common elements for the same sized arrays are", listarr)
+
 
 else:
     print("Both the Arrays are not equal in size")
+
+
+if len(listarr1) != len(listarr2):
+    for i in range(len(listset1)):
+        for j in range(len(listset2)):
+            if listset1[i] == listset2[j]:
+                listarr.append(listset1[i])
+
+    print("Common elements for the varied sized arrays are", listarr)
+
 
 if len(listset1) != len(listset2):
     print("The Arrays are not equal in content")
 else:
     print("The Arrays are equal in content")
 
-print("Common elements in both the Arrays are", listarr)
+
