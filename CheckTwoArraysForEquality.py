@@ -42,13 +42,9 @@ if len(listarr1) == len(listarr2):
 else:
     print("Both the Arrays are not equal in size")
 
-# print("listarr is ", listarr)
-
-if len(listarr) != len(listset1):
-    print("The Arrays are not equal in content")
-elif len(listarr) != len(listset2):
-    print("The Arrays are not equal in content")
-elif len(listset1) != len(listset2):
+if len(listset1) != len(listset2):
     print("The Arrays are not equal in content")
 else:
     print("The Arrays are equal in content")
+
+print("Common elements in both the Arrays are", listarr)
