@@ -17,7 +17,6 @@ def slicing_operation(array_length):
         k = k + 1
         array_length = array_length - 1
         printing_array(array_x)
-        # Do the required operation on the Array
 
 
 arr1 = np.array([1, 2, 3, 7, 5])
