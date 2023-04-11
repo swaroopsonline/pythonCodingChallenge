@@ -26,12 +26,6 @@ def check_for_summation_equality(array_s):
             array1[i] = summation
             j = j + 1
 
-    # if not summation == S:
-    #     print("The given sum could not be deduced from the given array of elements")
-    #     # redefine_a_new_array()
-    # elif summation == S:
-    #     print("Here you go", array_s[j])
-
 
 def printing_array(array_y):
     print(array_y)
