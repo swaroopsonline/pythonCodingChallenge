@@ -5,25 +5,26 @@
 import numpy as np
 
 
-def printing_result_array(array_s):
-    print("The resulting Sub-Array is ", array_s)
-
-
 def check_for_summation_equality(array_s):
     i = 0
     j = 1
-    summation = 0
+    empty_list = []
+
     array_length = len(array_s)
-    print("Attempting from the first Array element, i.e., ", array_s[i])
+    # print("Attempting from the first Array element, i.e., ", array_s[i])
+    empty_list.append(array_s[i])
+
     while j < array_length:
+
         summation = array_s[i] + array_s[j]
         if summation == S:
-            printing_result_array(array_s)
-            print("Summation ends with the last Array element, i.e., ", array_s[j])
-            break
+            # print("Summation ends with the last Array element, i.e., ", array_s[j])
+            empty_list.append(array_s[j])
+            print("Following are the end integers from left to the right", empty_list)
+            exit()
         elif not summation == S:
-            # print("The given sum could not be deduced from the given array of elements")
-            array1[i] = summation
+            # empty_list.clear()
+            array_s[i] = summation
             j = j + 1
 
 
@@ -34,22 +35,22 @@ def printing_array(array_y):
 def slicing_operation(array_length):
     k = 1
 
-    while array_length > 2:
+    while array_length >= 2:
         array_x = arr1[k:]
         k = k + 1
         array_length = array_length - 1
-        # printing_array(array_x)
-        # Do the required operation on the Array
         check_for_summation_equality(array_x)
 
 
 # ----------------------------------- Here starts the Code statements -------------------------------------
-S = 5
+S = 12
 print(f"The required sum is {S}")
 arr1 = np.array([1, 2, 3, 7, 5])
 array1 = arr1
-print("The given Array is ",array1)
+print("The given Array is ", array1)
+print("-------------------------------------------")
 # Do the required operation on the Array
+
 check_for_summation_equality(array1)
 arrayLength1 = len(array1)
 
