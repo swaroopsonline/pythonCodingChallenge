@@ -55,3 +55,10 @@ check_for_summation_equality(array1)
 arrayLength1 = len(array1)
 
 slicing_operation(arrayLength1)  # ---> We are feeding the arrayLength1 to the function slicing_operation()
+
+# -------------------------Sample Output when 'S = 12' is---------------------------------------
+# The required sum is 12
+# The given Array is  [1 2 3 7 5]
+# -------------------------------------------
+# Following are the end integers from left to the right [2, 7]
+
