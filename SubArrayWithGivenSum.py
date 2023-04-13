@@ -40,10 +40,12 @@ def slicing_operation(array_length):
         k = k + 1
         array_length = array_length - 1
         check_for_summation_equality(array_x)
+    else:
+        print("The Sum could not be deduced from the given Array of elements")
 
 
 # ----------------------------------- Here starts the Code statements -------------------------------------
-S = 12
+S = 15
 print(f"The required sum is {S}")
 arr1 = np.array([1, 2, 3, 7, 5])
 array1 = arr1
@@ -61,4 +63,3 @@ slicing_operation(arrayLength1)  # ---> We are feeding the arrayLength1 to the f
 # The given Array is  [1 2 3 7 5]
 # -------------------------------------------
 # Following are the end integers from left to the right [2, 7]
-
