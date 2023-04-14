@@ -1,4 +1,6 @@
-#
+# This Code intends to derive a Sub-Array from a given Array, adding the integers of which
+# the given Sum could be derived.
+# Dated: 14th April 2023
 import numpy as np
 
 
