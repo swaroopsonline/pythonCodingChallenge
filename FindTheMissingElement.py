@@ -4,15 +4,6 @@
 # Dated: 21st April 2023
 import numpy as np
 
-N = 8
-array1 = np.array([5, 2, 8, 1, 4, 7, 3])
-list1 = list(array1)
-print(list1)
-
-# Firstly check if N(i.e., 8) is missing in the given array
-list1.sort()
-length = len(list1)
-
 
 def find_the_missing_integer():
     # Let's form an array of size 8 with integers from 1 to 8
@@ -34,6 +25,16 @@ def find_the_missing_integer():
             print(f"The missing integer is {empty_array[x]}")
             exit()
 
+
+# ----------------------------------Code statements start from here------------------------------------
+N = 8
+array1 = np.array([5, 2, 8, 1, 4, 7, 3])
+list1 = list(array1)
+print(list1)
+
+# Firstly check if N(i.e., 8) is missing in the given array
+list1.sort()
+length = len(list1)
 
 if N == list1[length - 1]:
     find_the_missing_integer()
