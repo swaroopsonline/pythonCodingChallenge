@@ -6,7 +6,7 @@ import numpy as np
 
 
 def find_the_missing_integer():
-    # Let's form an array of size 8 with integers from 1 to 8
+    # Let's form an array of size 8 with integers from 1 to 8. And compare it with the original Array.
 
     empty_array = []
 
@@ -18,7 +18,7 @@ def find_the_missing_integer():
 
     # print(empty_array)
 
-    length_of_list1 = len(list1)
+    # length_of_list1 = len(list1)
 
     for x in range(len(list1)):
         if list1[x] != empty_array[x]:
@@ -41,3 +41,10 @@ if N == list1[length - 1]:
 else:
     print(f"{N} is the missing integer")
     exit()
+
+# -----------------------------------------Sample Output is--------------------------------------------
+# /usr/bin/python3.10 /home/swaroop/PycharmProjects/pythonCodingChallenge/FindTheMissingElement.py
+# [5, 2, 8, 1, 4, 7, 3]
+# The missing integer is 6
+#
+# Process finished with exit code 0
