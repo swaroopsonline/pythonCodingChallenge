@@ -9,9 +9,6 @@ def extraction_of_each_array_integer():
         comparison_of_each_extracted_array_integer(y)
 
 
-# x = array1_list[3]
-# y = array1_list[1]
-
 def printing_operation(emp_list):
     # Note: In the below if statement the occurrence of the smallest integer will always be
     # length of (array-1)
@@ -44,7 +41,7 @@ length_of_array1 = len(array1_list)
 extraction_of_each_array_integer()
 
 # -------------------------------------------Sample output is------------------------------------------------
-# /usr/bin/python3.10 /home/swaroop/PycharmProjects/pythonCodingChallenge/Finding_the_smallest_integer_of_array.py
+# /usr/bin/python3.10 /home/swaroop/PycharmProjects/pythonCodingChallenge/FindingTheSmallestIntegerOfArray.py
 # The smallest integer of the Array is 2
 #
 # Process finished with exit code 0
