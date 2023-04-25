@@ -1,5 +1,5 @@
-# This is a rough workout to further work on the sorting solution of an unsorted Integer Array.
-# Dated:
+# -------------------- This is a Code to sort an unsorted Integer Array.---------------------------
+# Dated: 25th April 2023
 import numpy as np
 
 
@@ -113,7 +113,10 @@ sorted_array = []
 extraction_of_each_array_integer()
 
 # -------------------------------------------Sample output is------------------------------------------------
-# /usr/bin/python3.10 /home/swaroop/PycharmProjects/pythonCodingChallenge/FindingTheSmallestIntegerOfArray.py
-# The smallest integer of the Array is 2
+# /usr/bin/python3.10 /home/swaroop/PycharmProjects/pythonCodingChallenge/SortingAnIntegerArray.py
+# The Given unsorted Array is
+# [5, 2, 7, 11, 8, 6, 9]
+# The sorted Array is shown below
+# [2, 5, 6, 7, 8, 9, 11]
 #
 # Process finished with exit code 0
