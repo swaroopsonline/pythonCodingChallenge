@@ -73,9 +73,11 @@ extraction_of_each_array_integer(array1_list)
 
 # -------------------------------------------Sample output is------------------------------------------------
 # /usr/bin/python3.10 /home/swaroop/PycharmProjects/pythonCodingChallenge/SortingAnIntegerArrayOptimized.py
-# The given Array is
+# The given Unsorted Array is
 # [5, 2, 7, 11, 8, 6, 9, 81, 33, 52, 76, 21, 201, 111, 19]
-# The sorted Array is shown below
+# The Sorted Array is shown below
 # [2, 5, 6, 7, 8, 9, 11, 19, 21, 33, 52, 76, 81, 111, 201]
 #
 # Process finished with exit code 0
+
+
