@@ -7,7 +7,7 @@ def print_the_sorted_array(new_array):
     # print(f"The last array is {new_array}")
     last_int = new_array[0]
     sorted_array.append(last_int)
-    print("The sorted Array is shown below")
+    print("The Sorted Array is shown below")
     print(sorted_array)
 
 
@@ -63,7 +63,7 @@ def extraction_of_each_array_integer(array_list):
 # ----------------------------Actual statements start here -------------------------------------
 array1 = np.array([5, 2, 7, 11, 8, 6, 9, 81, 33, 52, 76, 21, 201, 111, 19])
 array1_list = list(array1)
-print("The given Array is")
+print("The given Unsorted Array is")
 print(array1_list)
 length_of_array1 = len(array1_list)
 
