@@ -1,4 +1,5 @@
 # -------------------- This is an Optimized Code to sort an unsorted Integer Array.---------------------------
+# Note: Here we are not using the sort functionality provided by Python.
 # Dated: 25th April 2023
 import numpy as np
 
